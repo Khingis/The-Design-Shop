@@ -1,0 +1,90 @@
+/* ====General==== */
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,200&display=swap");
+
+/*     #323A45 / #848484   */
+* {
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #323a45;
+}
+h1 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
+img:hover {
+  opacity: 0.5;
+}
+
+
+/* ===header==== */
+header {
+  width: 100%;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4%;
+}
+.nav ul {
+  display: flex;
+}
+ul li {
+  list-style-type: none;
+  padding-left: 2rem;
+}
+
+/* ===Product main==== */
+.container {
+  width: 100%;
+}
+.product {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.product-last {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-template-rows: repeat(2, 1fr);
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+/* ===let top picture span 3 columns===== */
+.A {
+  width: 100%;
+  grid-column: 1 / span 3;
+}
+#top {
+  height: auto;
+  width: 100%;
+}
+.description {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ===contact==== */
+.contact {
+  padding: 4%;
+  display: flex;
+}
+.contact div {
+  margin-right: 10rem;
+}
